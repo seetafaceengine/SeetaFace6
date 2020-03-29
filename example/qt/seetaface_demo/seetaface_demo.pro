@@ -27,14 +27,12 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     videocapturethread.cpp \
-    faceinputdialog.cpp \
     inputfilesprocessdialog.cpp \
     resetmodelprocessdialog.cpp
 
 HEADERS += \
         mainwindow.h \
     videocapturethread.h \
-    faceinputdialog.h \
     inputfilesprocessdialog.h \
     resetmodelprocessdialog.h
 
@@ -42,8 +40,7 @@ FORMS += \
         mainwindow.ui
 
 INCLUDEPATH += /wqy/tools/opencv4_home/include/opencv4 \
-               /wqy/seeta_sdk/SF3/libs/SF3.0_v1/include   \
-SeetaFaceTracking600
+               /wqy/seeta_sdk/SF3/libs/SF3.0_v1/include
 
 
 
