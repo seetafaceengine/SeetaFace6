@@ -21,7 +21,7 @@ INCLUDEPATH += /wqy/tools/opencv4_home/include/opencv4 \
 LIBS += -L/wqy/tools/opencv4_home/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs \
         -L/wqy/seeta_sdk/SF3/libs/SF3.0_v1/lib64 -lSeetaFaceDetector600 -lSeetaFaceLandmarker600  \
         -lSeetaFaceAntiSpoofingX600 -lSeetaFaceTracking600 -lSeetaFaceRecognizer610 \
-        -lSeetaQualityAssessor300 -lSeetaPoseEstimation600
+        -lSeetaQualityAssessor300 -lSeetaPoseEstimation600 -lSeetaAuthorize -ltennis
 ```
 
 WINDOWS:
