@@ -17,7 +17,7 @@
 </div>
 
 
-对比与SeetaFace2，我们开放版采用了商用版最新的推理引擎TenniS，ResNet50的推理速度，从SeetaFace2在I7的8FPS提升到了20FPS。同时人脸识别训练集也大幅度提高，SeetaFace6人脸识别数据量增加到了上亿张图片。
+对比于SeetaFace2，我们开放版采用了商用版最新的推理引擎TenniS，ResNet50的推理速度，从SeetaFace2在I7的8FPS提升到了20FPS。同时人脸识别训练集也大幅度提高，SeetaFace6人脸识别数据量增加到了上亿张图片。
 
 为了应对不同级别的应用需求，SeetaFace6将开放三个版本模型：
 
