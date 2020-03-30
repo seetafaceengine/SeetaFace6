@@ -42,7 +42,7 @@
 此次开放版将开放标准C++开发接口的，包含x86和ARM架构支持，逐步开放Ubuntu、CentOS、macOS、Android、IOS的支持。同时仍然保持了SeetaFace优良传统，不依赖任何第三方库。
 
 <div align=center>
-<img src="./asserts/api_matrix.png" width="440" height="180" />
+<img src="./asserts/api_matrix.png" width="360" height="180" />
 </div>
 
 # 下载地址
@@ -72,6 +72,8 @@ Part II: [Download](https://pan.baidu.com/s/1xjciq-lkzEBOZsTfVYAT9g) code: `t6j0
 [《SeetaFace 入门教程》](http://leanote.com/blog/post/5e7d6cecab64412ae60016ef)，github上有同步[文档源码](https://github.com/seetafaceengine/SeetaFaceTutorial)。
 
 人脸识别的完整示例Demo见 [example/qt](./example/qt)。
+
+关于版本号的额外说明，该开放版本立项的时候，就是作为社区版v3发布，而执行过程中调整至发布版本为商用版本v6。这个版本不统一是因为商用版迭代的版本管理和社区版不统一造成的。现在统一版本为v6。但是项目过程中还是存在`SeetaFace3`的表述，大家不同担心，v6和v3其实就是一个版本。
 
 # 接口文档
 
