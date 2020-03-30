@@ -50,10 +50,10 @@
 ### 百度网盘
 
 开发包：  
-Windows: [Download](https://pan.baidu.com/s/1-8HRwIJGkkvtHeEtKktg4Q) code: `p27r`  
-Ubuntu1604: [Download](https://pan.baidu.com/s/1Q-LASS9J60UkGv737lt7HQ) code: `3nwd`  
-CentOS7: [Download](https://pan.baidu.com/s/1Io3DVZOtbVY6tTWUtxRy3g) code: `o35e`  
-Android: [Download](https://pan.baidu.com/s/10tqqU2DRY0RB5SH72sgMmg) code: `thcd`  
+Windows: [Download](https://pan.baidu.com/s/1Z4RmX-hrAmNVTR6csz_joQ) code: `imc2`  
+Ubuntu1604: [Download](https://pan.baidu.com/s/1pVg_oLwAOxS6q1zAJcIEfg) code: `gcmk`  
+CentOS7: [Download](https://pan.baidu.com/s/18If0OX9j8DmmbyGb2hM5yA) code: `w5os`  
+Android: [Download](https://pan.baidu.com/s/1r4aZ8BLs82-relRqSis5oA) code: `z7rb`  
 macOS: [Comming soon]  
 IOS: [Comming soon]  
 
