@@ -18,13 +18,13 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>-10</y>
+      <y>0</y>
       <width>1221</width>
-      <height>761</height>
+      <height>751</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
@@ -754,7 +754,7 @@
      <x>0</x>
      <y>0</y>
      <width>1230</width>
-     <height>22</height>
+     <height>23</height>
     </rect>
    </property>
   </widget>

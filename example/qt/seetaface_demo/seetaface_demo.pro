@@ -39,15 +39,32 @@ HEADERS += \
 FORMS += \
         mainwindow.ui
 
-INCLUDEPATH += /wqy/tools/opencv4_home/include/opencv4 \
-               /wqy/seeta_sdk/SF3/libs/SF3.0_v1/include
+#windows adm64:
+INCLUDEPATH += C:/thirdparty/opencv4.2/build/include \
+               C:/study/SF3.0/sf3.0_windows/sf3.0_windows/include
 
 
+CONFIG(debug, debug|release) {
+LIBS += -LC:/thirdparty/opencv4.2/build/x64/vc14/lib -lopencv_world420d \
+        -LC:/study/SF3.0/sf3.0_windows/sf3.0_windows/lib/x64 -lSeetaFaceDetector600d -lSeetaFaceLandmarker600d \
+        -lSeetaFaceAntiSpoofingX600d -lSeetaFaceTracking600d -lSeetaFaceRecognizer610d \
+        -lSeetaQualityAssessor300d -lSeetaPoseEstimation600d
 
-LIBS += -L/wqy/tools/opencv4_home/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs \
-        -L/wqy/seeta_sdk/SF3/libs/SF3.0_v1/lib64 -lSeetaFaceDetector600 -lSeetaFaceLandmarker600 -ltennis \
-        -lSeetaFaceAntiSpoofingX600 -lSeetaAuthorize -lSeetaFaceTracking600 -lSeetaFaceRecognizer610 \
+} else {
+LIBS += -LC:/thirdparty/opencv4.2/build/x64/vc14/lib -lopencv_world420 \
+        -LC:/study/SF3.0/sf3.0_windows/sf3.0_windows/lib/x64 -lSeetaFaceDetector600 -lSeetaFaceLandmarker600 \
+        -lSeetaFaceAntiSpoofingX600 -lSeetaFaceTracking600 -lSeetaFaceRecognizer610 \
         -lSeetaQualityAssessor300 -lSeetaPoseEstimation600
+}
+
+#linux:
+#INCLUDEPATH += /wqy/tools/opencv4_home/include/opencv4 \
+#               /wqy/seeta_sdk/SF3/libs/SF3.0_v1/include
+
+#LIBS += -L/wqy/tools/opencv4_home/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs \
+#        -L/wqy/seeta_sdk/SF3/libs/SF3.0_v1/lib64 -lSeetaFaceDetector600 -lSeetaFaceLandmarker600 \
+#        -lSeetaFaceAntiSpoofingX600 -lSeetaFaceTracking600 -lSeetaFaceRecognizer610 \
+#        -lSeetaQualityAssessor300 -lSeetaPoseEstimation600
 
 RESOURCES += \
     face_resource.qrc

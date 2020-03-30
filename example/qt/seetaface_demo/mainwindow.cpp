@@ -33,6 +33,8 @@ using namespace std::chrono;
 
 const QString gcrop_prefix("crop_");
 Config_Paramter gparamters;
+std::string gmodelpath;
+
 /////////////////////////////////////
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -100,11 +102,12 @@ MainWindow::MainWindow(QWidget *parent) :
 
     m_database = QSqlDatabase::addDatabase("QSQLITE");
     QString exepath = QCoreApplication::applicationDirPath();
-    QString strdb = exepath + QDir::separator() + "test.db";
+    QString strdb = exepath + /*QDir::separator()*/ + "/seetaface_demo.db";
 
-    m_image_tmp_path = exepath + QDir::separator() + "tmp" + QDir::separator();
-    m_image_path = exepath + QDir::separator() + "images" + QDir::separator();
-    m_model_path = exepath + QDir::separator() + "models" + QDir::separator();
+    m_image_tmp_path = exepath + /*QDir::separator()*/ + "/tmp/";// + QDir::separator();
+    m_image_path = exepath + /*QDir::separator()*/ + "/images/";// + QDir::separator();
+    //m_model_path = exepath + /*QDir::separator()*/ + "/models/";// + QDir::separator();
+    gmodelpath = (exepath + /*QDir::separator()*/ + "/models/"/* + QDir::separator()*/).toStdString();
 
     QDir dir;
     dir.mkpath(m_image_tmp_path);
@@ -831,7 +834,7 @@ void MainWindow::on_settingsavebtn_clicked()
     }
 
     QString strmodel = ui->fr_modelpath->text().trimmed();
-    QFileInfo fileinfo(m_model_path + strmodel);
+    QFileInfo fileinfo(gmodelpath.c_str() + strmodel);
     if(QString::compare(fileinfo.suffix(), "csta", Qt::CaseInsensitive) != 0)
     {
         QMessageBox::warning(NULL, "warn", "Face Recognizer model file is invalid!", QMessageBox::Yes);
@@ -1276,7 +1279,10 @@ void MainWindow::on_settingselectmodelbtn_clicked()
     QFileInfo fileinfo(fileName);
     QString modelfile = fileinfo.fileName();
 
-    QString str = m_model_path + modelfile;
+    QString str = gmodelpath.c_str() + modelfile;
+
+    qDebug() << "------str:" << str;
+    qDebug() << "fileName:" << fileName;
 
     if(QString::compare(fileName, str) == 0)
     {
@@ -1286,7 +1292,7 @@ void MainWindow::on_settingselectmodelbtn_clicked()
     //QFile file(fileName);
     if(!QFile::copy(fileName, str))
     {
-        QMessageBox::critical(NULL, "critical", "Copy model file: " + fileName + " to " + m_model_path +  " failed, file already exists!", QMessageBox::Yes);
+        QMessageBox::critical(NULL, "critical", "Copy model file: " + fileName + " to " + gmodelpath.c_str() +  " failed, file already exists!", QMessageBox::Yes);
         return;
     }
 
