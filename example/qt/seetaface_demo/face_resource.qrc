@@ -2,5 +2,6 @@
     <qresource prefix="/new/prefix1">
         <file>default.png</file>
         <file>white.png</file>
+        <file>seetatech_logo.png</file>
     </qresource>
 </RCC>

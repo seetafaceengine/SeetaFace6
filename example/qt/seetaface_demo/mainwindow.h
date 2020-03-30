@@ -115,7 +115,7 @@ private:
     //QString          m_currentimagefile;
     QString          m_image_path;
     QString          m_image_tmp_path;
-    QString          m_model_path;
+    //QString          m_model_path;
 
     std::map<int, DataInfo *> m_datalst;
 

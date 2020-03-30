@@ -16,7 +16,7 @@ using namespace std::chrono;
 
 extern const QString gcrop_prefix;
 extern Config_Paramter gparamters;
-std::string gmodelpath = "/wqy/seeta_sdk/SF3/libs/SF3.0_v1/models/";
+extern std::string gmodelpath;// = "/wqy/seeta_sdk/SF3/libs/SF3.0_v1/models/";
 
 void clone_image( const SeetaImageData &src, SeetaImageData &dst)
 {

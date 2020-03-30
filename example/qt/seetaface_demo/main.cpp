@@ -11,6 +11,8 @@ int main(int argc, char *argv[])
     //QTextCodec::setCodecForCStrings(QTextCodec::codecForName("GBK"));
     //QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"))
     MainWindow w;
+    w.setWindowTitle("SeetaFace Demo");
+    w.setWindowIcon(QIcon(":/new/prefix1/seetatech_logo.png"));
     w.show();
 
     QString str("乱码");

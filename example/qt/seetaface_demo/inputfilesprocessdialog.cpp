@@ -3,7 +3,7 @@
 #include<QProgressBar>
 #include<QPushButton>
 #include<QHBoxLayout>
-#include "inputfilesprocessdialog.h""
+#include "inputfilesprocessdialog.h"
 
 #include "videocapturethread.h"
 
