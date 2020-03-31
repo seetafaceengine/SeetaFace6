@@ -79,7 +79,7 @@ Part II: [Download](https://pan.baidu.com/s/1xjciq-lkzEBOZsTfVYAT9g) code: `t6j0
 
 # 接口文档
 
-个模块接口参见 [docs](./docs)
+各模块接口参见 [docs](./docs)
 
 # 开发者社区
 
