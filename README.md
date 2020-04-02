@@ -55,7 +55,7 @@ Ubuntu1604: [Download](https://pan.baidu.com/s/1tOq12SdpUtuybe48cMuwag) code: `l
 CentOS7: [Download](https://pan.baidu.com/s/1-U02a--Xjt-Jvi2QWI-9vQ) code: `1i62`  
 Android: [Download](https://pan.baidu.com/s/1r4aZ8BLs82-relRqSis5oA) code: `z7rb`  
 macOS: [Comming soon]  
-IOS: [Comming soon]  
+IOS: [Download](https://pan.baidu.com/s/1-jKlCpVHoml9TmXq77SXxg) code: `t14x`, [Example](https://pan.baidu.com/s/159EVG8eqX2hPDeu1IrQaqg) code: `dund`.  
 
 
 模型文件：  
