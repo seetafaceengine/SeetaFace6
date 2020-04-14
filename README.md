@@ -50,7 +50,7 @@
 ### 百度网盘
 
 开发包：  
-Windows: [Download](https://pan.baidu.com/s/1_rFID6k6Istmu8QJkHpbFw) code: `iqjk`  
+Windows: [Download](https://pan.baidu.com/s/1_rFID6k6Istmu8QJkHpbFw) code: `iqjk`. Patch: 1. x86 pentium support [Download](https://pan.baidu.com/s/1RsXdg2h4Yq-bILdyVSTXDA) code: `0vn3`.  
 Ubuntu1604: [Download](https://pan.baidu.com/s/1tOq12SdpUtuybe48cMuwag) code: `lc44`  
 CentOS7: [Download](https://pan.baidu.com/s/1-U02a--Xjt-Jvi2QWI-9vQ) code: `1i62`  
 Android: [Download](https://pan.baidu.com/s/1nGm5VB2D8OZOlZgcABGA7g) code: `7m2h`  
