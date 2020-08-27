@@ -2,6 +2,9 @@
 
 [[中文]()] [English] 
 
+# 源码发布
+该项目源码已经发布到 [SeetaFace6Open](https://github.com/SeetaFace6Open/index).
+
 # 开放模块
 
 `SeetaFace6`是中科视拓最新开放的商业正式级版本。突破了之前社区版和企业版版本不同步发布的情况，这次发布的v6版本正式与商用版本同步。
