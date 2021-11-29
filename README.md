@@ -1,5 +1,7 @@
 # SeetaFace6
 
+[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
+
 [[中文]()] [English] 
 
 # 源码发布
